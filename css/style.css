@@ -1,0 +1,242 @@
+:root
+{
+    --green: green;
+    --black: #130f40;
+    --light: #666;
+    --box-shadow: 0 .5rem 1rem rgba(0,0,0.1);
+    --border: 2rem rgba(0,0,0,1);
+    --outline: 1rem rgba(0,0,0,1)
+    
+
+}
+.cstm_nav
+{
+background-color: #130f40 !important;
+
+}
+.logo
+{
+    height: 100px;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif !important;
+	margin:0px;
+    padding: 0px;
+    color: #130f40 !important;
+}
+
+
+.cstm_col
+{
+    border:solid 2PX snow ;
+    margin-right: 40px;
+    margin-left: 2px  !important;
+    background-color: #ffffff;
+    border-radius:25px;
+}       
+.cstm_menu
+{ 
+    border:solid 2PX snow ;
+    color: #000000 !important;
+    margin: 5px;
+
+
+}
+.cstm_li
+{
+    margin-top: 10px;
+}
+.cstm_list
+{
+    list-style-type: none;
+
+}
+.cstm_img
+{
+    
+}
+.cstm_navbar
+{
+    background-color: #060047 !important;
+    color: #060047;
+    margin: 0px !important;
+
+}
+.cstm_links
+{
+ color:  #FFE79B !important;
+}
+.cstm_search
+{
+   font-family: Arial, Helvetica, sans-serif;
+}
+.cstm_btn
+{
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+.cstm_btn:hover
+{
+    color:#000 !important;
+    background-color: #ffffff !important;
+   
+}
+.cstm_slider
+{
+margin: 0%;
+height: 730px;
+
+}
+
+.cstm_card_box
+{
+   margin: 13% !important;s
+}
+.cstm_card{
+    box-shadow: 0 0 15px #000000 !important;
+}
+.cstm_sli_img
+{
+    height: 730px;
+    
+}
+.logo_footer
+{}
+.footer {
+    background: #060047;
+    padding-top: 90px
+}
+
+.newslatter_form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.ente {
+    color: #000;
+    border: inherit;
+    padding: 0 30px;
+    height: 66px;
+    width: 100%;
+    font-size: 17px;
+}
+
+.subs_btn {
+    max-width: 289px;
+    display: inline-block;
+    background: #151515;
+    height: 66px;
+    width: 100%;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: ease-in all 0.5s;
+}
+
+.subs_btn:hover {
+    background: #fff;
+    color: #151515;
+    transition: ease-in all 0.5s;
+}
+
+.Informa h3 {
+    color: #FFE79B;s
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 21px;
+    margin-bottom: 15px;
+    margin-top: 26px;
+    text-transform: uppercase;
+}
+
+.Informa li {
+    font-size: 17px;
+    line-height: 37px;
+    color: #ffffff;
+}
+
+.Informa li a:hover {
+    color: #bdbdbe;
+}
+
+.helpful ul li a {
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.helpful ul li a:hover {
+    color: #bdbdbe;
+}
+
+ul.social_icon {
+    float: right;
+}
+
+ul.social_icon li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+ul.social_icon li:last-child {
+    padding-right: 0;
+}
+
+ul.social_icon li a {
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 33px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+ul.social_icon li a:hover {
+    color: #bdbdbe;
+    transform: rotate(360deg);
+    transition: ease-in all 0.7s;
+}
+
+.conta ul li a {
+    color: #ffffff;
+}
+
+.conta ul li a i {
+    padding-right: 5px;
+}
+
+.copyright {
+    background: #151515;
+    margin-top: 80px;
+    padding: 20px 0px;
+}
+
+.copyright p {
+    color: #bdbdbe;
+    font-weight: 400;
+}
+
+.copyright a {
+    color: #bdbdbe;
+}
+
+.copyright a:hover {
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 800px)
+{
+    .cstm_menu
+    {
+        font-size: small;
+    
+    }
+    .cstm_col
+    {
+       
+    }
+}

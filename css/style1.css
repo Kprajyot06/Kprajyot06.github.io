@@ -1,0 +1,88 @@
+body
+{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+.logo
+{
+    margin-top:10px;
+    margin-bottom: 0px;
+}
+nav
+{
+background-color: black;
+color: white;
+padding: 20px 40px;
+
+}
+.navtop
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    
+}
+.search
+{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 20px ;
+    border-radius: 10px;
+}
+.searchinput
+{
+    height: 40px;
+    border: none;
+    border-color: transparent;
+    border-radius: 10px;
+
+
+}
+.searchinput::placeholder
+{
+    color: lightgray;
+}
+.downloadnow
+{
+    font: 20px;
+    border-bottom: 2px solid green;
+    cursor: pointer;
+}
+
+.navbotton
+{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+     
+}
+.menuitem
+{
+   margin-right: 40px; 
+   cursor: pointer;
+   color: lightgray;
+   font-weight: 400;
+   text-decoration: none;
+
+
+
+}
+.slider
+{
+  background: url("/images/back.jpeg");
+  background-repeat: no-repeat;
+ background-size: 100%;
+  clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+  size: 100%;
+}
+.headimage
+{ margin-left: 30%;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+
+}
